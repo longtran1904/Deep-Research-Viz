@@ -6,7 +6,7 @@ A Tool to turn Deep Research Results into Compelling Instagram Posts
 The `deep-research` project is included as a submodule in this repository.
 Refer to `deep-research/README.md` to install and setup
 
-## Install ADK
+## Install & Run ADK
 
 `pip install google-adk`
 
@@ -22,8 +22,8 @@ npx @modelcontextprotocol/inspector
 Transport Type: 
 - Streamable HTTP
 
-URL:
-- https://localhost:<port>/api/mcp
+Default URL:
+- https://localhost:3000/api/mcp
 
 Configuration:
 - Increase Maximum Time Out if requests timed out
