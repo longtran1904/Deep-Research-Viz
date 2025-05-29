@@ -1,6 +1,16 @@
 # Deep-Research-Viz
 A Tool to turn Deep Research Results into Compelling Instagram Posts
 
+## Cloning the Repository
+To clone this repository along with its submodules, use the following command:
+```
+git clone --recurse-submodules <repository-url>
+```
+If you have already cloned the repository without submodules, you can initialize and update them with:
+```
+git submodule update --init --recursive
+```
+
 ## Running Deep Research within Deep-Research-Viz
 
 The `deep-research` project is included as a submodule in this repository.
