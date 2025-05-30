@@ -17,8 +17,19 @@ The `deep-research` project is included as a submodule in this repository.
 Refer to `deep-research/README.md` to install and setup
 
 ## Install & Run ADK
+```
+python -m venv .venv
+pip install google-adk
 
-`pip install google-adk`
+# Create
+python -m venv .venv
+# Activate (each new terminal)
+# macOS/Linux: source .venv/bin/activate
+# Windows CMD: .venv\Scripts\activate.bat
+# Windows PowerShell: .venv\Scripts\Activate.ps1
+
+adk web
+```
 
 References: https://google.github.io/adk-docs/get-started/quickstart/
 
